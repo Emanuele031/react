@@ -1,7 +1,8 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
-const MyNav = () => (
+const MyNav = () => {
+    return(
     <Navbar bg="dark" variant="dark" expand="lg">
     <Navbar.Brand href="#">BookShop</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbar-nav" />
@@ -13,6 +14,7 @@ const MyNav = () => (
       </Nav>
     </Navbar.Collapse>
   </Navbar>
-);
+    )
+};
 
 export default MyNav;

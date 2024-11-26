@@ -2,7 +2,9 @@ import React from 'react';
 import { Card, Col, Row, Container } from 'react-bootstrap';
 import books from '../Data/fantasy.json';
 
-const AllTheBooks = () => (
+const AllTheBooks = () => {
+    console.log(fantasyBooks);
+    return(
     <Container className="mt-4">
     <Row>
       {books.map((book) => (
@@ -18,6 +20,7 @@ const AllTheBooks = () => (
       ))}
     </Row>
   </Container>
-);
+    )
+};
 
 export default AllTheBooks;
