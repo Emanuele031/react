@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Col, Row, Container } from 'react-bootstrap';
-import books from '../data/fantasy.json';
+import books from '../Data/fantasy.json';
 
 const AllTheBooks = () => (
     <Container className="mt-4">
